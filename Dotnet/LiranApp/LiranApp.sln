@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiranApp", "LiranApp.csproj", "{7DEEF693-79F8-4931-894E-015253ACCABC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.MySql", "..\Pomelo.EntityFrameworkCore.MySql\src\EFCore.MySql\EFCore.MySql.csproj", "{8C11CC2A-0B72-48C7-9F45-965E2A0EADB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DEEF693-79F8-4931-894E-015253ACCABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DEEF693-79F8-4931-894E-015253ACCABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DEEF693-79F8-4931-894E-015253ACCABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DEEF693-79F8-4931-894E-015253ACCABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C11CC2A-0B72-48C7-9F45-965E2A0EADB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C11CC2A-0B72-48C7-9F45-965E2A0EADB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C11CC2A-0B72-48C7-9F45-965E2A0EADB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C11CC2A-0B72-48C7-9F45-965E2A0EADB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ADE9BB1-5F6A-46E3-9B31-0582183C5AD4}
+	EndGlobalSection
+EndGlobal

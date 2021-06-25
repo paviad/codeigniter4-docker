@@ -10,7 +10,7 @@ services:
         image: atsanna/codeigniter4:latest
         container_name: 'codeigniter4'
         ports:
-          - 80:80
+          - 8000:80
         links:
           - codeigniter4_mysql
         volumes:
